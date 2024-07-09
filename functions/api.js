@@ -19,7 +19,7 @@ router.get("/tab", async (req, res) => {
 });
 router.get("/tab-1", (req, res) => {
   const data = [];
-  for (let index = 0; index < 10000; index++) {
+  for (let index = 1; index <= 10000; index++) {
     const item = {
       id: index,
       from: "tab-1",
@@ -33,7 +33,7 @@ router.get("/tab-1", (req, res) => {
 });
 router.get("/tab-2", (req, res) => {
   const data = [];
-  for (let index = 0; index < 10000; index++) {
+  for (let index = 1; index <= 10000; index++) {
     const item = {
       id: index,
       from: "tab-2",
@@ -47,7 +47,7 @@ router.get("/tab-2", (req, res) => {
 });
 router.get("/tab-3", (req, res) => {
   const data = [];
-  for (let index = 0; index < 10000; index++) {
+  for (let index = 1; index <= 10000; index++) {
     const item = {
       id: index,
       from: "tab-3",
